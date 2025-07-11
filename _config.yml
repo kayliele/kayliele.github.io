@@ -1,8 +1,8 @@
 # =============================
 # ✅ Site settings
 # =============================
-title: "Kaylie's Data Portfolio"
-subtitle: "Turning Data into Meaningful Stories"
+title: "Kaylie's Data Portfolio"   # This is the full site title (shown in the browser tab & header)
+subtitle: "Turning Data into Meaningful Stories"  # Used in the hero or header if you want
 email: le.thitr@northeastern.edu
 description: >-
   Welcome to my portfolio! I’m passionate about data analysis, visualization,
@@ -18,6 +18,20 @@ state: "MA"
 zip_code: "02115"
 country: "United States of America"
 phone: "(617) 555-5555"
+
+# =============================
+# Navigation links (3 main parts)
+# These titles appear in the site menu bar (header navigation)
+# Each URL must match your actual page file
+# Example: "About Me" links to /aboutme.html
+# =============================
+nav:
+  - title: "About Me"       # The About Me section title shown in the navbar
+    url: "/aboutme.html"
+  - title: "My Projects"    # The My Projects section title shown in the navbar
+    url: "/projects.html"
+  - title: "Contact"        # The Contact section title shown in the navbar
+    url: "/contact.html"
 
 # =============================
 #  Homepage / Tiles
