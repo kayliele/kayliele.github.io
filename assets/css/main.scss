@@ -78,19 +78,21 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
-/* === Make hero title bigger === */
+
+}
 header.major h2 {
-  font-size: 3rem;   /* to hơn nữa nếu cần: 4rem */
+  font-size: 3.5rem;
+  font-weight: 700;
   line-height: 1.2;
 }
 
 header.major p {
-  font-size: 1.25rem; /* hoặc 1.5rem nếu muốn rõ */
-  max-width: 800px;   /* để đoạn mô tả không dài quá */
+  font-size: 1.3rem;
+  max-width: 800px;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
-/* Optional: To adjust entire site headings */
 h1 {
   font-size: 3rem;
 }
@@ -104,5 +106,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1rem;  /* Hoặc to hơn */
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
+
