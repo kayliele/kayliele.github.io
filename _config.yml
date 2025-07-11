@@ -1,17 +1,19 @@
 # =============================
-# ✅ Site settings
+# ✅ Site Settings
 # =============================
-title: "Kaylie's Data Portfolio"   # This is the full site title (shown in the browser tab & header)
-subtitle: "Turning Data into Meaningful Stories"  # Used in the hero or header if you want
-email: le.thitr@northeastern.edu
+
+title: "Kaylie's Data Portfolio"      # Main site title
+subtitle: "Turning Data into Meaningful Stories"   # Tagline shown with your title
+email: le.thitr@northeastern.edu      # Your contact email
 description: >-
   Welcome to my portfolio! I’m passionate about data analysis, visualization,
   and statistical modeling. With a background in research, communication, and marketing,
   I apply technical skills to solve real-world problems across education, business, and society.
-baseurl: "" # keep empty if deploying at root
-url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL
 
-author: "Kaylie Le"
+baseurl: ""    # Leave this blank when deploying at the root of your GitHub Pages site
+url: "https://kayliele.github.io"   # Your full site URL
+
+author: "Kaylie Le"      # Your name for the site footer
 street_address: "123 Harvard Street"
 city: "Boston"
 state: "MA"
@@ -20,48 +22,38 @@ country: "United States of America"
 phone: "(617) 555-5555"
 
 # =============================
-# Navigation links (3 main parts)
-# These titles appear in the site menu bar (header navigation)
-# Each URL must match your actual page file
-# Example: "About Me" links to /aboutme.html
+# ✅ Homepage Tiles Settings
 # =============================
-nav:
-  - title: "About Me"       # The About Me section title shown in the navbar
-    url: "/aboutme.html"
-  - title: "My Projects"    # The My Projects section title shown in the navbar
-    url: "/projects.html"
-  - title: "Contact"        # The Contact section title shown in the navbar
-    url: "/contact.html"
+
+tiles-source: pages    # Use 'pages' to create tiles from your individual page files
+tiles-count: 3         # Show exactly 3 tiles on the homepage (About Me, My Projects, Contact)
 
 # =============================
-#  Homepage / Tiles
+# ✅ Social Links
 # =============================
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
 
-# =============================
-#  Socials
-# =============================
 socials:
   GitHub: https://github.com/yourusername
   LinkedIn: https://www.linkedin.com/in/my-kaylie-le-667381254/
   Email: mailto:le.thitr@northeastern.edu
 
 # =============================
-#  Build settings
+# ✅ Build Settings
 # =============================
-markdown: kramdown
+
+markdown: kramdown     # Use Kramdown for Markdown processing
 
 sass:
-  style: compressed
+  style: compressed    # Compress CSS output for faster loading
 
-# Include custom CSS for extra styles
+# Optional: Add custom CSS file(s) for your own styles
 site-css:
   - "/assets/css/custom-styles.css"
 
 # =============================
-#  Files to exclude from build
+# ✅ Files/Folders to Exclude
 # =============================
+
 exclude:
   - Gemfile
   - Gemfile.lock
