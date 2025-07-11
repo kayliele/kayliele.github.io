@@ -1,7 +1,10 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: '<header class="major">
+  <h2>Hi! I'm Kaylie</h2>
+  <p>Welcome to my portfolio! I’m passionate about data analysis, visualization, and statistical modeling</p>
+</header>'
 description: null
 image: null
 author: null
