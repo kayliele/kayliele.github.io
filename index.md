@@ -1,9 +1,17 @@
 ---
 layout: home
 title: Home
-landing-title: "Hi! I'm Kaylie"
-description: "Welcome to my portfolio! I’m passionate about data analysis, visualization, and statistical modeling..."
-image: null
-author: null
-show_tile: false
 ---
+
+<!-- Hero Block -->
+<header class="major">
+  <h2>Hi! I'm Kaylie</h2>
+  <p>Welcome to my portfolio! I’m passionate about data analysis, visualization, and statistical modeling to solve real-world problems across education, business, and society.</p>
+</header>
+
+<!-- Tiles (keep unchanged) -->
+<section class="tiles">
+  <section class="tile style1">
+    ...
+  </section>
+</section>
