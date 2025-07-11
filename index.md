@@ -6,14 +6,19 @@ title: Home
 <!-- Hero header -->
 <header class="major">
   <h2>Hi! I'm Kaylie</h2>
-  <p>Welcome to my portfolio! I’m passionate about data analysis, visualization, and statistical modeling to turn data into meaningful stories.</p>
+  <p>
+    Welcome to my portfolio! I’m passionate about data analysis, visualization, 
+    and statistical modeling to turn data into meaningful stories.
+  </p>
 </header>
 
 <!-- Tiles section -->
 <section class="tiles">
+
+  <!-- About Me tile -->
   <article class="style1">
     <span class="image">
-      <img src="/assets/img/about-bg.jpg" alt="About Me" />
+      <img src="/assets/img/about-bg.jpg" alt="About Me">
     </span>
     <a href="/aboutme.html">
       <h2>About Me</h2>
@@ -23,9 +28,10 @@ title: Home
     </a>
   </article>
 
+  <!-- My Projects tile -->
   <article class="style2">
     <span class="image">
-      <img src="/assets/img/projects-bg.jpg" alt="My Projects" />
+      <img src="/assets/img/projects-bg.jpg" alt="My Projects">
     </span>
     <a href="/projects.html">
       <h2>My Projects</h2>
@@ -35,9 +41,10 @@ title: Home
     </a>
   </article>
 
+  <!-- Contact tile -->
   <article class="style3">
     <span class="image">
-      <img src="/assets/img/contact-bg.jpg" alt="Contact" />
+      <img src="/assets/img/contact-bg.jpg" alt="Contact">
     </span>
     <a href="/contact.html">
       <h2>Contact</h2>
@@ -46,5 +53,5 @@ title: Home
       </div>
     </a>
   </article>
-</section>
 
+</section>
