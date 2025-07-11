@@ -6,16 +6,13 @@ title: Home
 <!-- Hero header -->
 <header class="major">
   <h2>Hi! I'm Kaylie</h2>
-  <p>
-    Welcome to my portfolio! I’m passionate about data analysis, visualization, 
-    and statistical modeling to turn data into meaningful stories.
-  </p>
+  <p>Welcome to my portfolio! I’m passionate about data analysis, visualization, and statistical modeling to turn data into meaningful stories.</p>
 </header>
 
-<!-- Tiles section -->
+<!-- ✅ Only ONE tiles section -->
 <section class="tiles">
 
-  <!-- About Me tile -->
+  <!-- About Me -->
   <article class="style1">
     <span class="image">
       <img src="/assets/img/about-bg.jpg" alt="About Me">
@@ -28,7 +25,7 @@ title: Home
     </a>
   </article>
 
-  <!-- My Projects tile -->
+  <!-- My Projects -->
   <article class="style2">
     <span class="image">
       <img src="/assets/img/projects-bg.jpg" alt="My Projects">
@@ -41,7 +38,7 @@ title: Home
     </a>
   </article>
 
-  <!-- Contact tile -->
+  <!-- Contact -->
   <article class="style3">
     <span class="image">
       <img src="/assets/img/contact-bg.jpg" alt="Contact">
