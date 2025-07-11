@@ -79,5 +79,15 @@
 	@import 'layout/wrapper';
 	@import 'layout/menu';
 
+header.major h2 {
+  font-size: 3.5rem !important;
+  color: #fff !important;  /* or any visible color */
+}
+
+header.major p {
+  color: #ddd !important;
+}
+
+
 
 
