@@ -75,4 +75,17 @@ Below is a curated selection of my data analysis work, each project showcasing s
 
 I welcome opportunities to collaborate or discuss data-driven solutions.  
 - **Email:** le.thitr@northeastern.edu  
-- **LinkedIn:** https://www.linkedin.com/in/my-kaylie-le-667381254/  
+- **LinkedIn:** https://www.linkedin.com/in/my-kaylie-le-667381254/
+
+<div class="projects-grid">
+  {% for p in site.data.projects %}
+    <div class="project-card">
+      <a href="{{ p.url }}">
+        <img src="{{ p.image | relative_url }}" alt="{{ p.title }}">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.description }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
