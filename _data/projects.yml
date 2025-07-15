@@ -1,0 +1,34 @@
+- title: "Student Habits and Exam Performance"
+  url: "https://github.com/tramylttm2210/ANOVA-t-Tests-Visual-Analytics-of-Student-Habits-on-Exam-Performance"
+  image: "/assets/images/projects/student-habits.jpg"
+  description: "Quantify how study time, sleep quality, and social media use impact academic outcomes."
+
+- title: "Book Publishing Trend Analysis (1990–2020)"
+  url: "https://github.com/tramylttm2210/Book-Publishing-Trend-Analysis-1990-2020-"
+  image: "/assets/images/projects/book-publishing.jpg"
+  description: "Identify long-term publishing trends and rating patterns to inform strategic decisions."
+
+- title: "Baseball MVP Analysis – 1986 MLB Season"
+  url: "https://github.com/tramylttm2210/Baseball-MVP-Analysis-1986-MLB-Season-"
+  image: "/assets/images/projects/baseball-mvp.jpg"
+  description: "Determine the most valuable players of the 1986 season using performance metrics."
+
+- title: "Modeling Student Outcomes: Dropout to Graduation"
+  url: "https://github.com/tramylttm2210/Modeling-Student-Outcomes-from-Admission-Data-Dropout-to-Graduate"
+  image: "/assets/images/projects/student-outcomes.jpg"
+  description: "Predict student dropout risk and graduation likelihood from admission data."
+
+- title: "Evaluating E‑Commerce Platform Performance"
+  url: "https://github.com/tramylttm2210/Evaluating-E-Commerce-Platform-Performance-A-Statistical-Analysis-of-Bounce-and-Conversion-Rates-"
+  image: "/assets/images/projects/ecommerce-performance.jpg"
+  description: "Benchmark bounce and conversion rates to assess user engagement and funnel efficiency."
+
+- title: "Forecasting Career Outcomes from Academic Performance"
+  url: "https://github.com/tramylttm2210/Forecasting-Career-Outcomes-from-Academic-Performance"
+  image: "/assets/images/projects/career-forecast.jpg"
+  description: "Build regression models to predict future career success based on academic indicators."
+
+- title: "U.S. Apartment Rental Market Analysis"
+  url: "https://github.com/tramylttm2210/U.S.-Apartment-Rental-Market-Analysis-"
+  image: "/assets/images/projects/apartment-rental.jpg"
+  description: "Reveal pricing trends and geographic patterns in the U.S. rental market."
